@@ -1,0 +1,20 @@
+You are an expert insurance claims evaluator. Given the policy clauses and a structured query, decide if the claim is valid.
+
+Query:
+{query}
+
+Relevant Clauses:
+{context}
+
+Decide the following:
+- decision: "Approved" or "Rejected"
+- payout_amount: (if applicable)
+- justification: Explain your decision and reference matching clause text.
+
+Return this JSON format:
+
+{
+  "decision": "",
+  "payout_amount": "",
+  "justification": ""
+}

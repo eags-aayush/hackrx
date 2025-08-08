@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Insurance Assistant</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">Insurance Assistant</div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Ask Your Insurance Policy Questions</h1>
+
+      <form id="uploadForm">
+        <label>Select PDF/DOCX policy document:</label><br />
+        <input type="file" id="fileInput" accept=".pdf,.docx" /><br /><br />
+        <button type="submit">Upload</button>
+      </form>
+
+      <hr />
+
+      <form id="queryForm">
+        <label>Ask a question:</label><br />
+        <input type="text" id="queryInput" required />
+        <button type="submit">Submit</button>
+      </form>
+
+      <h2>Answer:</h2>
+      <div id="responseBox"></div>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

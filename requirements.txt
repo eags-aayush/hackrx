@@ -1,0 +1,13 @@
+groq
+fastapi
+uvicorn
+openai
+langchain
+faiss-cpu
+pdfplumber
+python-docx
+python-dotenv
+tqdm
+scikit-learn
+sentence-transformers
+google-generativeai

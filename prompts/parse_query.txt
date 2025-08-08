@@ -1,0 +1,20 @@
+You are an expert data extractor. Extract key fields from the following user query and return in JSON format.
+
+Query: {query}
+
+Return fields:
+- age
+- gender
+- procedure
+- city
+- policy_duration (e.g., 3 months, 1 year)
+
+Format:
+
+{
+  "age": "",
+  "gender": "",
+  "procedure": "",
+  "city": "",
+  "policy_duration": ""
+}
